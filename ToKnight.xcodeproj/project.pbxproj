@@ -7,21 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1E5A661D566EF900B90779 /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E5A651D566EF900B90779 /* ChannelTableViewController.swift */; };
+		DC1E5A681D5676FC00B90779 /* ChannelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E5A671D5676FC00B90779 /* ChannelDetailViewController.swift */; };
 		DC3A59E11D10BEC300C40C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A59E01D10BEC300C40C9C /* AppDelegate.swift */; };
-		DC3A59E31D10BEC300C40C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A59E21D10BEC300C40C9C /* ViewController.swift */; };
+		DC3A59E31D10BEC300C40C9C /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A59E21D10BEC300C40C9C /* VotingViewController.swift */; };
 		DC3A59E61D10BEC300C40C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3A59E41D10BEC300C40C9C /* Main.storyboard */; };
 		DC3A59E81D10BEC300C40C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3A59E71D10BEC300C40C9C /* Assets.xcassets */; };
 		DC3A59EB1D10BEC300C40C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3A59E91D10BEC300C40C9C /* LaunchScreen.storyboard */; };
+		DC3A59F51D10BF0B00C40C9C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3A59F21D10BF0B00C40C9C /* FBSDKCoreKit.framework */; };
+		DC3A59F61D10BF0B00C40C9C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3A59F31D10BF0B00C40C9C /* FBSDKLoginKit.framework */; };
+		DC3A59F71D10BF0B00C40C9C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3A59F41D10BF0B00C40C9C /* FBSDKShareKit.framework */; };
+		DC3A59F91D10BF1F00C40C9C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3A59F81D10BF1F00C40C9C /* MapKit.framework */; };
+		DC4580DF1D28C040005AFFA4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4580DE1D28C040005AFFA4 /* CardView.swift */; };
+		DC875A761D5FB6EB00197F17 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC875A751D5FB6EB00197F17 /* libsqlite3.tbd */; };
+		DC875AA61D5FB9F400197F17 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875A9D1D5FB9F400197F17 /* FMDatabase.m */; };
+		DC875AA71D5FB9F400197F17 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875A9F1D5FB9F400197F17 /* FMResultSet.m */; };
+		DC875AA81D5FB9F400197F17 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875AA11D5FB9F400197F17 /* FMDatabaseQueue.m */; };
+		DC875AA91D5FB9F400197F17 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875AA31D5FB9F400197F17 /* FMDatabaseAdditions.m */; };
+		DC875AAA1D5FB9F400197F17 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875AA51D5FB9F400197F17 /* FMDatabasePool.m */; };
+		DCD17B651D601413003EC13D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD17B641D601413003EC13D /* Channel.swift */; };
+		DCD32A6E1D247AF400B856D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD32A6D1D247AF400B856D9 /* MainView.swift */; };
+		DCD32A721D24818E00B856D9 /* EventDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD32A711D24818E00B856D9 /* EventDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1E5A651D566EF900B90779 /* ChannelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
+		DC1E5A671D5676FC00B90779 /* ChannelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelDetailViewController.swift; path = ../ChannelDetailViewController.swift; sourceTree = "<group>"; };
 		DC3A59DD1D10BEC300C40C9C /* ToKnight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToKnight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3A59E01D10BEC300C40C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC3A59E21D10BEC300C40C9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC3A59E21D10BEC300C40C9C /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 		DC3A59E51D10BEC300C40C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC3A59E71D10BEC300C40C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3A59EA1D10BEC300C40C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC3A59EC1D10BEC300C40C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3A59F21D10BF0B00C40C9C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DC3A59F31D10BF0B00C40C9C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DC3A59F41D10BF0B00C40C9C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		DC3A59F81D10BF1F00C40C9C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapKit.framework; sourceTree = "<group>"; };
+		DC4580DE1D28C040005AFFA4 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DC875A751D5FB6EB00197F17 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DC875A9A1D5FB9F300197F17 /* ToKnight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToKnight-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC875A9B1D5FB9F400197F17 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DC875A9C1D5FB9F400197F17 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DC875A9D1D5FB9F400197F17 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DC875A9E1D5FB9F400197F17 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DC875A9F1D5FB9F400197F17 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DC875AA01D5FB9F400197F17 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DC875AA11D5FB9F400197F17 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DC875AA21D5FB9F400197F17 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DC875AA31D5FB9F400197F17 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DC875AA41D5FB9F400197F17 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DC875AA51D5FB9F400197F17 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DCD17B641D601413003EC13D /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		DCD32A6D1D247AF400B856D9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DCD32A711D24818E00B856D9 /* EventDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC875A761D5FB6EB00197F17 /* libsqlite3.tbd in Frameworks */,
+				DC3A59F61D10BF0B00C40C9C /* FBSDKLoginKit.framework in Frameworks */,
+				DC3A59F51D10BF0B00C40C9C /* FBSDKCoreKit.framework in Frameworks */,
+				DC3A59F91D10BF1F00C40C9C /* MapKit.framework in Frameworks */,
+				DC3A59F71D10BF0B00C40C9C /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +82,12 @@
 		DC3A59D41D10BEC300C40C9C = {
 			isa = PBXGroup;
 			children = (
+				DCD17B641D601413003EC13D /* Channel.swift */,
+				DC875A751D5FB6EB00197F17 /* libsqlite3.tbd */,
+				DC3A59F81D10BF1F00C40C9C /* MapKit.framework */,
+				DC3A59F21D10BF0B00C40C9C /* FBSDKCoreKit.framework */,
+				DC3A59F31D10BF0B00C40C9C /* FBSDKLoginKit.framework */,
+				DC3A59F41D10BF0B00C40C9C /* FBSDKShareKit.framework */,
 				DC3A59DF1D10BEC300C40C9C /* ToKnight */,
 				DC3A59DE1D10BEC300C40C9C /* Products */,
 			);
@@ -54,14 +104,55 @@
 		DC3A59DF1D10BEC300C40C9C /* ToKnight */ = {
 			isa = PBXGroup;
 			children = (
-				DC3A59E01D10BEC300C40C9C /* AppDelegate.swift */,
-				DC3A59E21D10BEC300C40C9C /* ViewController.swift */,
+				DC875A891D5FB95200197F17 /* DB */,
+				DCD32A701D24816800B856D9 /* EventDownloads */,
+				DCD32A6F1D247B1800B856D9 /* Support files */,
+				DC3A59E21D10BEC300C40C9C /* VotingViewController.swift */,
 				DC3A59E41D10BEC300C40C9C /* Main.storyboard */,
+				DC1E5A651D566EF900B90779 /* ChannelTableViewController.swift */,
+				DCD32A6D1D247AF400B856D9 /* MainView.swift */,
+				DC1E5A671D5676FC00B90779 /* ChannelDetailViewController.swift */,
+			);
+			path = ToKnight;
+			sourceTree = "<group>";
+		};
+		DC875A891D5FB95200197F17 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				DC875A9B1D5FB9F400197F17 /* FMDB.h */,
+				DC875A9C1D5FB9F400197F17 /* FMDatabase.h */,
+				DC875A9D1D5FB9F400197F17 /* FMDatabase.m */,
+				DC875A9E1D5FB9F400197F17 /* FMResultSet.h */,
+				DC875A9F1D5FB9F400197F17 /* FMResultSet.m */,
+				DC875AA01D5FB9F400197F17 /* FMDatabaseQueue.h */,
+				DC875AA11D5FB9F400197F17 /* FMDatabaseQueue.m */,
+				DC875AA21D5FB9F400197F17 /* FMDatabaseAdditions.h */,
+				DC875AA31D5FB9F400197F17 /* FMDatabaseAdditions.m */,
+				DC875AA41D5FB9F400197F17 /* FMDatabasePool.h */,
+				DC875AA51D5FB9F400197F17 /* FMDatabasePool.m */,
+				DC875A9A1D5FB9F300197F17 /* ToKnight-Bridging-Header.h */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		DCD32A6F1D247B1800B856D9 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4580DE1D28C040005AFFA4 /* CardView.swift */,
+				DC3A59E01D10BEC300C40C9C /* AppDelegate.swift */,
 				DC3A59E71D10BEC300C40C9C /* Assets.xcassets */,
 				DC3A59E91D10BEC300C40C9C /* LaunchScreen.storyboard */,
 				DC3A59EC1D10BEC300C40C9C /* Info.plist */,
 			);
-			path = ToKnight;
+			name = "Support files";
+			sourceTree = "<group>";
+		};
+		DCD32A701D24816800B856D9 /* EventDownloads */ = {
+			isa = PBXGroup;
+			children = (
+				DCD32A711D24818E00B856D9 /* EventDownload.swift */,
+			);
+			name = EventDownloads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +187,7 @@
 				TargetAttributes = {
 					DC3A59DC1D10BEC300C40C9C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3BE85L62JQ;
 					};
 				};
 			};
@@ -135,8 +227,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3A59E31D10BEC300C40C9C /* ViewController.swift in Sources */,
+				DCD32A721D24818E00B856D9 /* EventDownload.swift in Sources */,
+				DC875AAA1D5FB9F400197F17 /* FMDatabasePool.m in Sources */,
+				DC3A59E31D10BEC300C40C9C /* VotingViewController.swift in Sources */,
+				DCD17B651D601413003EC13D /* Channel.swift in Sources */,
+				DC1E5A661D566EF900B90779 /* ChannelTableViewController.swift in Sources */,
+				DC1E5A681D5676FC00B90779 /* ChannelDetailViewController.swift in Sources */,
+				DCD32A6E1D247AF400B856D9 /* MainView.swift in Sources */,
+				DC875AA81D5FB9F400197F17 /* FMDatabaseQueue.m in Sources */,
 				DC3A59E11D10BEC300C40C9C /* AppDelegate.swift in Sources */,
+				DC875AA91D5FB9F400197F17 /* FMDatabaseAdditions.m in Sources */,
+				DC875AA71D5FB9F400197F17 /* FMResultSet.m in Sources */,
+				DC4580DF1D28C040005AFFA4 /* CardView.swift in Sources */,
+				DC875AA61D5FB9F400197F17 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +352,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ToKnight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Woodfield-Consulting-Group.ToKnight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToKnight/ToKnight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +371,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ToKnight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Woodfield-Consulting-Group.ToKnight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToKnight/ToKnight-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +404,7 @@
 				DC3A59F11D10BEC300C40C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
