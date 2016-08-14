@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7792662AC006062FEF9D2236 /* Pods_ToKnight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D7B146D99D25002D8375BE /* Pods_ToKnight.framework */; };
 		DC1E5A661D566EF900B90779 /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E5A651D566EF900B90779 /* ChannelTableViewController.swift */; };
 		DC1E5A681D5676FC00B90779 /* ChannelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E5A671D5676FC00B90779 /* ChannelDetailViewController.swift */; };
 		DC3A59E11D10BEC300C40C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A59E01D10BEC300C40C9C /* AppDelegate.swift */; };
@@ -25,12 +26,15 @@
 		DC875AA81D5FB9F400197F17 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875AA11D5FB9F400197F17 /* FMDatabaseQueue.m */; };
 		DC875AA91D5FB9F400197F17 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875AA31D5FB9F400197F17 /* FMDatabaseAdditions.m */; };
 		DC875AAA1D5FB9F400197F17 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC875AA51D5FB9F400197F17 /* FMDatabasePool.m */; };
+		DCB2BF551D6027E800BC1E4A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCB2BF541D6027E800BC1E4A /* Podfile */; };
 		DCD17B651D601413003EC13D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD17B641D601413003EC13D /* Channel.swift */; };
 		DCD32A6E1D247AF400B856D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD32A6D1D247AF400B856D9 /* MainView.swift */; };
 		DCD32A721D24818E00B856D9 /* EventDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD32A711D24818E00B856D9 /* EventDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47DEF270DB782D3A25329991 /* Pods-ToKnight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToKnight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToKnight/Pods-ToKnight.debug.xcconfig"; sourceTree = "<group>"; };
+		BE02E7AE561C8567C701230E /* Pods-ToKnight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToKnight.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToKnight/Pods-ToKnight.release.xcconfig"; sourceTree = "<group>"; };
 		DC1E5A651D566EF900B90779 /* ChannelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
 		DC1E5A671D5676FC00B90779 /* ChannelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelDetailViewController.swift; path = ../ChannelDetailViewController.swift; sourceTree = "<group>"; };
 		DC3A59DD1D10BEC300C40C9C /* ToKnight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToKnight.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,9 +62,11 @@
 		DC875AA31D5FB9F400197F17 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		DC875AA41D5FB9F400197F17 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 		DC875AA51D5FB9F400197F17 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DCB2BF541D6027E800BC1E4A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		DCD17B641D601413003EC13D /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		DCD32A6D1D247AF400B856D9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DCD32A711D24818E00B856D9 /* EventDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDownload.swift; sourceTree = "<group>"; };
+		F1D7B146D99D25002D8375BE /* Pods_ToKnight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToKnight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +79,25 @@
 				DC3A59F51D10BF0B00C40C9C /* FBSDKCoreKit.framework in Frameworks */,
 				DC3A59F91D10BF1F00C40C9C /* MapKit.framework in Frameworks */,
 				DC3A59F71D10BF0B00C40C9C /* FBSDKShareKit.framework in Frameworks */,
+				7792662AC006062FEF9D2236 /* Pods_ToKnight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65CFCF96F6AE4479EA0251A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D7B146D99D25002D8375BE /* Pods_ToKnight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC3A59D41D10BEC300C40C9C = {
 			isa = PBXGroup;
 			children = (
+				DCB2BF541D6027E800BC1E4A /* Podfile */,
 				DCD17B641D601413003EC13D /* Channel.swift */,
 				DC875A751D5FB6EB00197F17 /* libsqlite3.tbd */,
 				DC3A59F81D10BF1F00C40C9C /* MapKit.framework */,
@@ -90,6 +106,8 @@
 				DC3A59F41D10BF0B00C40C9C /* FBSDKShareKit.framework */,
 				DC3A59DF1D10BEC300C40C9C /* ToKnight */,
 				DC3A59DE1D10BEC300C40C9C /* Products */,
+				E33180B20A532592100428E0 /* Pods */,
+				65CFCF96F6AE4479EA0251A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +173,15 @@
 			name = EventDownloads;
 			sourceTree = "<group>";
 		};
+		E33180B20A532592100428E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47DEF270DB782D3A25329991 /* Pods-ToKnight.debug.xcconfig */,
+				BE02E7AE561C8567C701230E /* Pods-ToKnight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC3A59EF1D10BEC300C40C9C /* Build configuration list for PBXNativeTarget "ToKnight" */;
 			buildPhases = (
+				02E3F5D0962815DC84E02538 /* 📦 Check Pods Manifest.lock */,
 				DC3A59D91D10BEC300C40C9C /* Sources */,
 				DC3A59DA1D10BEC300C40C9C /* Frameworks */,
 				DC3A59DB1D10BEC300C40C9C /* Resources */,
+				37E191A7400A2EA68540DF7F /* 📦 Embed Pods Frameworks */,
+				6F88F65A0C8D374DAA944FAF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,11 +246,60 @@
 			files = (
 				DC3A59EB1D10BEC300C40C9C /* LaunchScreen.storyboard in Resources */,
 				DC3A59E81D10BEC300C40C9C /* Assets.xcassets in Resources */,
+				DCB2BF551D6027E800BC1E4A /* Podfile in Resources */,
 				DC3A59E61D10BEC300C40C9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E3F5D0962815DC84E02538 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37E191A7400A2EA68540DF7F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToKnight/Pods-ToKnight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F88F65A0C8D374DAA944FAF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToKnight/Pods-ToKnight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC3A59D91D10BEC300C40C9C /* Sources */ = {
@@ -350,6 +429,7 @@
 		};
 		DC3A59F01D10BEC300C40C9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DEF270DB782D3A25329991 /* Pods-ToKnight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -369,6 +449,7 @@
 		};
 		DC3A59F11D10BEC300C40C9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE02E7AE561C8567C701230E /* Pods-ToKnight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

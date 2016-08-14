@@ -1,0 +1,6 @@
+framework module Pods_ToKnight {
+  umbrella header "Pods-ToKnight-umbrella.h"
+
+  export *
+  module * { export * }
+}
